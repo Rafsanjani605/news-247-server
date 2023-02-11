@@ -15,7 +15,7 @@ app.get('/' , (req , res) =>{
     res.send('news api running')
 })
 
-app.get('/news-category' , (req , res) =>{
+app.get('/news-categories' , (req , res) =>{
     res.send(categories)
 })
 
